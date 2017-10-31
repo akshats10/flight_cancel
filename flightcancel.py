@@ -4,7 +4,6 @@ import numpy as np
 import pandas as pd
 import statsmodels.api as sm
 
-
 def readfile():
 	
 	wb  =  openpyxl.load_workbook ( 'CancelledFlights.xlsx' )
